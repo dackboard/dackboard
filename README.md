@@ -15,7 +15,7 @@ Check out the [client], [server] or [api docs] repositories**
 ---
 | [Server Repository](https://github.com/dackboard/dackboard-server) | [Client Repository](https://github.com/dackboard/dackboard-client) | [Scoreboard Repository](#) |
 |:---------------------:|:-------------------:|:------:|
-| *insert badges* | *insert badges* | *to be started* |
+| [![Coverage Status](https://coveralls.io/repos/github/dackboard/dackboard-server/badge.svg?branch=master)](https://coveralls.io/github/dackboard/dackboard-server?branch=master) [![Build Status](https://travis-ci.org/dackboard/dackboard-server.svg?branch=master)](https://travis-ci.org/dackboard/dackboard-server) | *insert badges* | *to be started* |
   
 
 ## Conception
