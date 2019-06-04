@@ -13,10 +13,22 @@ Check out the [client], [server] or [api docs] repositories**
 </p>
 
 ---
-| [Server Repository](https://github.com/dackboard/dackboard-server) | [Client Repository](https://github.com/dackboard/dackboard-client) | *todo* |
+| [Server Repository](https://github.com/dackboard/dackboard-server) | [Client Repository](https://github.com/dackboard/dackboard-client) | [Scoreboard Repository](#) |
 |:---------------------:|:-------------------:|:------:|
-| *insert badges* | *insert badges* | |
+| *insert badges* | *insert badges* | *to be started* |
   
+
+## Conception
+
+### Basic Architecture
+![Architecture](https://i.imgur.com/3RX8vg8.png)
+- The SQL Database stores persistent data such as completed games & tournaments with computed data
+- The noSQL Database stores temporary data such as active/running games and tournaments,
+  data stored in this database is more dynamic and not computed yet (happens when finishing a game and the dataset is transferred to the SQL database)
+- The server connects all services together
+- The client is used to input data about games, tournaments and also provides the live-data for a currently running game
+- The scoreboard is used to display data such as tournament stats/trees and current game scores
+
 ## Contributing
 The backend is a JSON API server built using Node, TypeScript and Express. The frontend is a React App built with TypeScript. 
 
